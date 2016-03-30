@@ -233,11 +233,7 @@ p {
 	padding-bottom: 60px;
 }
 .bg-section{
-	background:url('http://placehold.it/1920x700') no-repeat center center;
-	-webkit-background-size: cover; 
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
-	background-size: cover;
+	background:url('../images/greyzz.png');
 }
 
 /* Box */
@@ -305,7 +301,7 @@ strong, b{
 .navbar-main .navbar-nav > li > a {
 	padding-top:30px;
 	min-height: 80px;
-	font-size:12px;
+	font-size:15px;
 	line-height:22px;
 	color: white;
 	background-color:transparent;
@@ -555,6 +551,14 @@ strong, b{
 	content: "/\00a0";
 }
 
+/* ==========================
+Inscripciones
+============================= */
+.inscripciones p{
+    font-size: 18px;
+}
+
+
 
 /* ==========================
 4. Match Facts
@@ -653,6 +657,8 @@ strong, b{
 .title-block2{
     text-align: center;
     font-size: 20px;
+    margin: 0 auto;
+    width: 500px;
     color: #fff;
     line-height: 30px;
     font-weight: 600;
@@ -661,8 +667,36 @@ strong, b{
     padding: 10px 20px;
     margin-bottom: 20px;
 }
+.welcome2 ul{
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    list-style: initial;
+    margin-bottom: 30px ;
+}
+.reglament{
+    background: url(../images/greyzz.png);
+}
 .welcome2 p{
     text-align: center;
+}
+.welcome4{
+    text-align: center;
+}
+.welcome3{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+    margin-bottom: 30px ;
+}
+.welcome3 li{
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+}
+.welcome3 li:nth-child(2n){
+    background: grey;
+    color: #fff;
 }
 .shop-item{
 	position: relative;
@@ -1178,11 +1212,12 @@ td.tw10{
 
 .section.gallery{
 	padding-bottom:60px;
-	background: url(../images/second_banner.jpg) no-repeat fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url('../images/second_banner.jpg');
 }
 .gallery .page-title .lead{
 	color: #fff;
-    text-shadow: 2px 2px 10px rgba(0,0,0,.5);
 }
 .popup-gallery {
     margin-right: -5px;
@@ -1274,6 +1309,10 @@ td.tw10{
 /* ==========================
 8. Blog / News
 ============================= */
+
+.blog .page-title .lead{
+	color:#000;
+}
 .blog{
 	padding-bottom:80px;
     background: url(../images/greyzz.png);
@@ -1320,7 +1359,7 @@ td.tw10{
 	bottom: -1px;
 }
 .blog-item .item-body{
-	background-color: transparent;
+	background-color: rgba(255,255,255,.5);
 	border: 1px solid #e0e0e0;
 	position:relative;
 	min-height:200px;
@@ -1332,7 +1371,7 @@ td.tw10{
 .blog-item .item-body .description{
 	padding: 25px 22px;
 	width:100%;
-	color: #666666;
+	color: #fff;
 	font-size:14px;
 	line-height: 20px;
     height: 230px;
@@ -2448,6 +2487,10 @@ p.help-block.text-danger li {
 	}	
 }
 @media (max-width: 479px) {
+
+    .title-block2{
+        width: 100%;
+    }
 	.image-wrap .meta {
 		display: none;
 	}
