@@ -30,7 +30,7 @@ $(document).ready(function(){
 		if (top > batas) {
 			jQuery('.navbar-main').addClass('stiky');
 		} else {
-			jQuery('.navbar-main').removeClass('stiky'); 
+			jQuery('.navbar-main').removeClass('stiky');
 		}
 	});
 	
@@ -61,7 +61,7 @@ $(document).ready(function(){
 	var shop = $("#shop-caro");
 	shop.owlCarousel({
 		singleItem : true,
-		autoPlay : 5000,
+		autoPlay : 2000,
 		pagination : false
 	});
 	
@@ -87,7 +87,7 @@ $(document).ready(function(){
 	var about = $("#about-caro");
 	about.owlCarousel({
 		singleItem : true,
-		autoPlay : 5000,
+		autoPlay : 2000,
 		pagination : true
 	});
 
