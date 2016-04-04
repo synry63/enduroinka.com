@@ -464,6 +464,10 @@ strong, b{
 	filter: alpha(opacity=0);
 	opacity: 0;
 }
+
+.wrap-caption{
+	float: right;
+}
 .item.active .carousel-caption .caption-heading2 {
 	margin-bottom: 8px;
 	filter: alpha(opacity=100);
